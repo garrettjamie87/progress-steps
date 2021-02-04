@@ -12,3 +12,11 @@ next.addEventListener('click', () => {
             currentActive = circles.length
       }
 })
+
+next.addEventListener('click', () => {
+      currentActive--
+
+      if(currentActive < circles.length){
+            currentActive = 1
+      }
+})
